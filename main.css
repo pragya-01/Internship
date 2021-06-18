@@ -1,0 +1,45 @@
+/*.App {
+    text-align: center;
+  }*/
+  
+  .Oppurtunities{
+    background-color: #0f1d34;
+    display: flex;
+    flex-wrap: none;
+    flex-direction: row;
+    justify-content:center;
+    vertical-align: middle;
+    width:availWidth;
+    height:60%;
+    padding:0% 10% 0% 10%;
+  }
+  
+  .oppurtunitiesContainer{
+   color: black;
+   background-color: #CECECF;
+   width:30%;
+   height:auto;
+   margin:1%;
+   flex-grow:1;
+   flex-shrink:1;
+   text-align: center;
+   display: inline-block;
+   opacity: 0.8;
+  }
+
+i{
+        font-size: 50px;
+        margin: 5% 0;
+        color:#0f1d34;
+    }
+
+.titleOppurtunitiesContainer{
+    font-size:150%;
+    font-style:inherit;
+}
+
+.descriptionOppurtunitiesContainer{
+    display: inline-block;
+    font-size:100%;
+    margin-bottom:5%;
+}
