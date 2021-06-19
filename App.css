@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-
+/* oppurtunities outside container's css starts here*/
 .oppurtunities{
   /*background-color: #0f1d34*/
   display: flex;
@@ -13,7 +13,8 @@
   height:60%;
   padding:0% 10% 0% 10%;
 }
-
+/* oppurtunities Outside container's css ends here*/
+/*oppurtunities inside containers' css start here*/
 .oppurtunitiesContainer{
  color: black;
  /*background-color: white;*/
@@ -26,21 +27,25 @@
  display: inline-block;
  opacity: 0.5;
 }
-
+/*oppurtunities inside containers' css end here*/
+/*oppurtunities container's icons css starts here*/
 .iconOppurtunitiesContainer{
       font-size: 400%;
       margin: 5% 0 3% 0;
       color:#0f1d34;
   }
-
+/*oppurtunities containers' icons' css ends here*/
+/*oppurtunities conatiners' titles's css starts here*/ 
 .titleOppurtunitiesContainer{
   font-size:120%;
   font-style:inherit;
   height:15%;
 }
-
+/*oppurtunities conatiners' titles's css ends here*/
+/*oppurtunities conatiners' description's css starts here*/ 
 .descriptionOppurtunitiesContainer{
   display: inline-block;
   font-size:100%;
   margin-bottom:5%;
 }
+/*oppurtunities conatiners' description's css ends here*/ 
