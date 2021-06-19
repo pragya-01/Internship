@@ -1,1 +1,1 @@
-# Internship.OppurtunitiesComponent
+# Internship.OpportunitiesComponent
