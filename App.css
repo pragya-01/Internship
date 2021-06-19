@@ -3,16 +3,44 @@
 }
 
 .oppurtunities{
-  background-color:#0F1D34;
-  display:flex;
+  /*background-color: #0f1d34*/
+  display: flex;
+  flex-wrap: none;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  justify-content:center;
+  vertical-align: middle;
+  width:availWidth;
+  height:60%;
+  padding:0% 10% 0% 10%;
 }
 
 .oppurtunitiesContainer{
- text-align: center; 
  color: black;
- background-color: '#CECECF';
+ /*background-color: white;*/
+ width:50%;
+ height:auto;
+ margin:1%;
+ flex-grow:1;
+ flex-shrink:1;
+ text-align: center;
+ display: inline-block;
+ opacity: 0.5;
 }
 
+.iconOppurtunitiesContainer{
+      font-size: 400%;
+      margin: 5% 0 3% 0;
+      color:#0f1d34;
+  }
+
+.titleOppurtunitiesContainer{
+  font-size:120%;
+  font-style:inherit;
+  height:15%;
+}
+
+.descriptionOppurtunitiesContainer{
+  display: inline-block;
+  font-size:100%;
+  margin-bottom:5%;
+}
